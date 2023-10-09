@@ -13,3 +13,6 @@ class Order(models.Model):
         blank=False,
         null=False,
     )
+    is_done = models.BooleanField(
+        default=False,
+    )
